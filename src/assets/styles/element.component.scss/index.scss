@@ -1,0 +1,15 @@
+@import "./Table.scss";
+// @import "./DatePick.scss";
+//@import "./Divider.scss";
+@import "./Drawer.scss";
+@import "./Dialog.scss";
+// @import "./Form.scss";
+@import "./Dropdown.scss";
+// @import "./Message.scss";
+
+.el-tabs__item {
+  @include font-color("2");
+  &.is-active {
+    color: $primary-color !important;
+  }
+}

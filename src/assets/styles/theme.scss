@@ -1,0 +1,23 @@
+// 默认主题
+$light: (
+  bg-color: #ddd
+);
+//红色主题
+$dark: (
+  bg-color: red
+);
+//定义映射集合
+$themes: (
+  light: $light,
+  dark: $dark
+);
+
+ 
+
+@mixin base-background() {
+  @each $themename, $theme in $themes {
+    [data-theme="#{$themename}"] & {
+      background: map-get($map: $theme, $key: bg-color);
+    }
+  }
+}

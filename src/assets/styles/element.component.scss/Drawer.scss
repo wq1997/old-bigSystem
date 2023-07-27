@@ -1,0 +1,11 @@
+.el-drawer {
+  @include bg-color("2");
+  :focus {
+    outline: none;
+  }
+  .el-drawer__body {
+    padding-right: 40px !important;
+    box-sizing: border-box;
+    overflow: scroll;
+  }
+}

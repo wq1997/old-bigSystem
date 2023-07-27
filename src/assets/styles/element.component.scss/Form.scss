@@ -1,0 +1,50 @@
+.el-form-item__label {
+  color: $text-color;
+}
+
+$formElement-bgColor: #99999921;
+
+// textarea
+.el-textarea__inner {
+  border: none;
+  background-color: $formElement-bgColor;
+}
+
+// input
+*,
+.el-input,
+.el-input.is-disabled {
+  .el-input__inner,
+  .el-range-input {
+    background-color: $formElement-bgColor;
+    border: none;
+    color: #a3a3a3;
+    .el-range-separator {
+      color: $text-color;
+    }
+  }
+  .el-input__count .el-input__count-inner {
+    background-color: $formElement-bgColor;
+  }
+}
+
+// select
+.el-select-dropdown,
+.el-cascader__dropdown {
+  background-color: $bgColor-box;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  .el-select-dropdown__item {
+    &:hover {
+      background-color: $bgColor-wrapper;
+    }
+    &.hover {
+      background-color: $bgColor-wrapper;
+    }
+  }
+}
+
+//tabs
+.el-tabs__item {
+  color: #fff;
+}

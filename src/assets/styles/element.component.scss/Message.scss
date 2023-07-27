@@ -1,0 +1,8 @@
+.el-message-box {
+  background-color: $bgColor-wrapper;
+  border: none;
+  .el-message-box__title,
+  .el-message-box__message {
+    color: $text-color;
+  }
+}

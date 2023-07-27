@@ -1,0 +1,229 @@
+$primary-color: #0d9bff;
+
+$bgColor-container: #28282a;
+$bgColor-wrapper: #212223;
+$bgColor-box: #353436;
+$text-color: #999;
+$tableHeader-bgColor: $bgColor-box;
+
+$colorful-1: #3af3a7;
+$colorful-2: #c23531;
+$colorful-3: #ca8622;
+$colorful-4: #b06ceb;
+$colorful-5: #749f83;
+$colorful-6: #31e0f0;
+
+:export {
+  colorful_1: $colorful-1;
+  colorful_2: $colorful-2;
+  colorful_3: $colorful-3;
+  colorful_4: $colorful-4;
+  colorful_5: $colorful-5;
+  colorful_6: $colorful-6;
+  colorful_7: $primary-color;
+}
+
+$img-url: "~@/assets/images/";
+$offLine: #c4d8d9;
+
+@mixin dis-flex($row: flex-start, $column: flex-start, $direction: row) {
+  display: flex;
+  justify-content: $row;
+  align-items: $column;
+  flex-direction: $direction;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  height: 40px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  @include dis-flex(flex-start, center);
+  font-size: 14px;
+  font-weight: bolder;
+
+  &.total-count {
+    @include dis-flex(center, center);
+  }
+}
+
+.card-content {
+  height: calc(100% - 40px);
+  position: relative;
+}
+
+.offLine {
+  color: $offLine !important;
+}
+
+.onLine {
+  color: $primary-color !important;
+}
+
+.active-warn {
+  color: $colorful-2 !important;
+  display: inline-block;
+}
+
+.alarm-prior1 {
+  color: red;
+}
+
+.alarm-prior2 {
+  color: #409eff;
+}
+
+.alarm-prior3 {
+  color: #67c23a;
+}
+
+.profit {
+  color: goldenrod;
+}
+
+@font-face {
+  font-family: yjsz;
+  src: url("~@/assets/font/yjsz.ttf");
+}
+
+@font-face {
+  font-family: DINCondensed-Bold;
+  src: url("~@/assets/font/DINCondensed-Bold.ttf");
+}
+
+.runLineIcon-onLine {
+  color: $colorful-6;
+}
+
+.runLineIcon-offLine {
+  color: $text-color;
+  border: 1.5px solid $text-color !important;
+}
+
+>>> .el-form-item__label {
+  line-height: normal !important;
+  min-height: 36px;
+  @include dis-flex(flex-end, center);
+}
+
+.search-wrapper {
+  @include dis-flex(center, center);
+  color: $text-color;
+  margin-bottom: 30px;
+
+  > div {
+    @include dis-flex(center, center);
+    margin: 0 5px;
+
+    .search-name {
+      display: inline-block;
+      text-align: right;
+    }
+  }
+}
+
+.margin-lr {
+  margin: 0 10px;
+}
+
+.margin-l {
+  margin-left: 10px;
+}
+
+.margin-r {
+  margin-right: 10px;
+}
+
+// -----------------theme
+// 默认主题
+$light: (
+  bg-color1: #dcdfe6,
+  bg-color2: #fff,
+  text-color1: #000,
+  text-color2: #000
+);
+//黑色主题
+$black: (
+  bg-color1: #353436,
+  bg-color2: #212223,
+  text-color1: #fff,
+  text-color2: #fff
+);
+//绿色主题
+$green: (
+  bg-color1: #1b2535,
+  bg-color2: #1c2a39,
+  text-color1: #fff,
+  text-color2: #fff,
+);
+//定义映射集合
+$themes: (
+  light: $light,
+  black: $black,
+  green: $green
+);
+
+@mixin themeify {
+  @each $theme-name, $theme-map in $themes {
+    $theme-map: $theme-map !global;
+
+    //!global 把局部变量强升为全局变量
+    //判断html的data-theme的属性值 #{}是sass的插值表达式
+    //& sass嵌套里的父容器标识  @content是混合器插槽，像vue的slot
+    #app[data-theme="#{$theme-name}"] & {
+      @content;
+    }
+  }
+}
+
+//声明一个根据Key获取颜色的function
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
+//获取背景颜色
+@mixin bg-color($index) {
+  @include themeify {
+    background: themed("bg-color#{$index}") !important;
+  }
+}
+
+//获取字体颜色
+@mixin font-color($index) {
+  @include themeify {
+    color: themed("text-color#{$index}");
+  }
+}
+
+.dark-box {
+  @include bg-color("2");
+  border-radius: 5px;
+}
+
+.icon-border-animate {
+  transition: 0.5s;
+  animation: breath 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+//  runline
+
+@mixin icon_breath($color) {
+  @include keyframes($color);
+  border-color: $color !important;
+  color: $color !important;
+  transition: 0.5s;
+  animation: breath 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@mixin keyframes($color) {
+  @keyframes breath {
+    from {
+      box-shadow: 0 0 8px -1px $color;
+    }
+    to {
+      box-shadow: 0 0 25px -1px $color;
+    }
+  }
+}

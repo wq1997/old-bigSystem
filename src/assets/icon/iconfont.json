@@ -1,0 +1,611 @@
+{
+  "id": "2123098",
+  "name": "vue2.x",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1718321",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1680713",
+      "name": "月报",
+      "font_class": "yuebao",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "11537792",
+      "name": "周报S",
+      "font_class": "zhoubaoS",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "12331690",
+      "name": "总结",
+      "font_class": "zongjie",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "14401866",
+      "name": "年报表",
+      "font_class": "shouyetubiao2-27",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "11007901",
+      "name": "报表",
+      "font_class": "baobiao",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "1228",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "33719082",
+      "name": "捷克",
+      "font_class": "jieke",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "33718486",
+      "name": "德国",
+      "font_class": "deguo",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "909131",
+      "name": "i-离床监测",
+      "font_class": "lichuangjiance",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "11565695",
+      "name": "监测",
+      "font_class": "jiance",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "12708137",
+      "name": "监测室",
+      "font_class": "jianceshi",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "14434887",
+      "name": "监测",
+      "font_class": "jiance1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "5982855",
+      "name": "插头",
+      "font_class": "chatou",
+      "unicode": "ec77",
+      "unicode_decimal": 60535
+    },
+    {
+      "icon_id": "15686544",
+      "name": "监控",
+      "font_class": "jiankong",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "1509753",
+      "name": "主题",
+      "font_class": "theme",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "19303146",
+      "name": "主题",
+      "font_class": "zhuti",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "4822981",
+      "name": "电池",
+      "font_class": "dianchi",
+      "unicode": "e7bb",
+      "unicode_decimal": 59323
+    },
+    {
+      "icon_id": "5836404",
+      "name": "电池",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "6376849",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10107817",
+      "name": "图表",
+      "font_class": "tubiao",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "10738840",
+      "name": "图表",
+      "font_class": "tubiao1",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "9487552",
+      "name": "电池",
+      "font_class": "dianchi1",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "6162465",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "8516533",
+      "name": "211铃铛",
+      "font_class": "lingdang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "8878241",
+      "name": "总览",
+      "font_class": "zonglan",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "9157869",
+      "name": "产品总览",
+      "font_class": "chanpinzonglan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "9757967",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "13971785",
+      "name": "个人 (3)",
+      "font_class": "geren",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "17570352",
+      "name": "报表",
+      "font_class": "xuanzhong",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "9572491",
+      "name": "电池",
+      "font_class": "IOTtubiao_huabanfuben",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1991011",
+      "name": "转接",
+      "font_class": "zhuanjie",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "4246289",
+      "name": "转接",
+      "font_class": "zhuanjie-copy",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "17493716",
+      "name": "转接",
+      "font_class": "zhuanjie1",
+      "unicode": "e775",
+      "unicode_decimal": 59253
+    },
+    {
+      "icon_id": "7109416",
+      "name": "6.对开门冰箱_1",
+      "font_class": "duikaimenbingxiang_",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "8861254",
+      "name": "冰箱",
+      "font_class": "bingxiang",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6512518",
+      "name": "退出登录",
+      "font_class": "tuichudenglu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "8349243",
+      "name": "退出登录",
+      "font_class": "tuichudenglu1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10563299",
+      "name": "退出登录",
+      "font_class": "tuichudenglu2",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "872702",
+      "name": "趋势",
+      "font_class": "qushi",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "1319964",
+      "name": "电站概况",
+      "font_class": "dianzhangaikuang",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "2155573",
+      "name": "计划",
+      "font_class": "jihua",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "3185960",
+      "name": "趋势",
+      "font_class": "qushi1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "3819704",
+      "name": "计划能力",
+      "font_class": "jihuanengli",
+      "unicode": "e7af",
+      "unicode_decimal": 59311
+    },
+    {
+      "icon_id": "4118073",
+      "name": "co2",
+      "font_class": "co",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "5314370",
+      "name": "旅游城市建筑city-tree小河树木r",
+      "font_class": "lvyouchengshijianzhucity-treexiaoheshumur",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "6871075",
+      "name": "电",
+      "font_class": "dian",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "11366443",
+      "name": "绿色 叶子 节能",
+      "font_class": "tubiao-",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "11712063",
+      "name": "分享赚收益",
+      "font_class": "fenxiangzhuanshouyi",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "11806564",
+      "name": "电池包",
+      "font_class": "dianchibao",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "13636965",
+      "name": "煤气",
+      "font_class": "meiqi",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "16560695",
+      "name": "智能科技-icon-锂电池制造",
+      "font_class": "zhinengkeji-icon-12",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6402524",
+      "name": "负载均衡",
+      "font_class": "fuzaijunheng",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "9702717",
+      "name": "宿舍用电",
+      "font_class": "susheyongdian",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "13956640",
+      "name": "电网公司",
+      "font_class": "dianwanggongsi",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "17803241",
+      "name": "光伏",
+      "font_class": "guangfu",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "6051698",
+      "name": "电表",
+      "font_class": "dianbiao",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "13908873",
+      "name": "电池@2x",
+      "font_class": "dianchix",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1638205",
+      "name": "位置",
+      "font_class": "weizhi1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "8706178",
+      "name": "在线",
+      "font_class": "zaixian",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "8898485",
+      "name": "收益",
+      "font_class": "shouyi2",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "10031571",
+      "name": "推广赚钱",
+      "font_class": "tuiguangzhuanqian",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "12304486",
+      "name": "在线",
+      "font_class": "zaixian1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14928721",
+      "name": "离线",
+      "font_class": "lixian1",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "2972512",
+      "name": "用户默认语言时区",
+      "font_class": "user-default-language",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "6371671",
+      "name": "人物 (1)",
+      "font_class": "renwu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "6716494",
+      "name": "地球",
+      "font_class": "earth",
+      "unicode": "e812",
+      "unicode_decimal": 59410
+    },
+    {
+      "icon_id": "7140605",
+      "name": "中型水电站",
+      "font_class": "zhongxingshuidianzhan",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8348567",
+      "name": "经纬度",
+      "font_class": "jingweidu",
+      "unicode": "e84d",
+      "unicode_decimal": 59469
+    },
+    {
+      "icon_id": "8466981",
+      "name": "网格-变电站",
+      "font_class": "biandianzhan",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10235004",
+      "name": "多人",
+      "font_class": "duoren",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "1365397",
+      "name": "告警待处理",
+      "font_class": "gaojingdaichuli",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5183565",
+      "name": "告警",
+      "font_class": "icon-test",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "6610893",
+      "name": "铃铛 ",
+      "font_class": "shouye-tongyong-",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7159530",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "8083356",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "10918639",
+      "name": "锁 打开 密码",
+      "font_class": "suodakaimima",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "11998394",
+      "name": "离线",
+      "font_class": "lixian",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "12787917",
+      "name": "在线 copy",
+      "font_class": "zaixiancopy",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "14767543",
+      "name": "大屏",
+      "font_class": "daping",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "16160537",
+      "name": "收益",
+      "font_class": "shouyi",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "17619375",
+      "name": "收益",
+      "font_class": "shouyi1",
+      "unicode": "e76d",
+      "unicode_decimal": 59245
+    },
+    {
+      "icon_id": "8726198",
+      "name": "美国",
+      "font_class": "meiguo-",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "10371773",
+      "name": "中国",
+      "font_class": "zhongguo-",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15795854",
+      "name": "电 话",
+      "font_class": "dianhua1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8020526",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
